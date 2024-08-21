@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+     rgba(4,9,30,0.7)),url(images/background.jpeg);
+     background-position: center;
+     background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    
+
+.table{
+    background-color: #f1eded46;
+    backdrop-filter: blur(5px);
+    width: 80%;
+    margin: 20px auto;
+    overflow: auto;
+    
+    
+
+.table_header{
+    background-color: #f1ededbd;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.table_body {
+    padding: 20px;
+       
+}
+
+table{
+    margin: 20px auto;
+    width: 95%;
+    border-radius: 270px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+
+table tr:hover{
+    background-color:#f1f0f0be ;
+}
+
+td {
+    font-size: 0.8rem;
+    background-color: #dad9d954;
+    padding: 0.8rem;
+   
+}
+
+tr:nth-child(even){
+    background-color: rgba(247, 240, 240, 0.651);
+}
+
+tr:nth-child(odd){
+    background-color: rgba(247, 240, 240, 0.507);
+}
+
+
+
+thead th{
+    background-color: #f1ededbd;
+    text-align: center;
+   
+    padding: 20px;
+    
+}
+
+
+
+.student img {
+    width: 40px;
+    /* display: flex;
+    align-items: center; */
+    display: inline;
+    float: left;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.graduated {
+    padding: 10px;
+    padding: 0.5rem;
+    background-color: rgba(89, 214, 89, 0.671);
+    color: rgb(1, 59, 1);
+    font-weight: 500;
+    border-radius: 7px;
+    
+}
+
+.enrolled{
+    padding: 10px;
+    padding: 0.5rem;
+    background-color: rgba(201, 214, 89, 0.671);
+    color: rgb(59, 55, 1);
+    font-weight: 500;
+    border-radius: 7px;
+    
+}
+
+.expelled {
+    padding: 10px;
+    padding: 0.5rem;
+    background-color: rgba(214, 114, 89, 0.671);
+    color: rgb(59, 1, 1);
+    font-weight: 500;
+    border-radius: 7px;
+    
+}
+
+.student_name {
+    display: inline;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table::-webkit-scrollbar {
+    height: 0.5rem;
+    width: 0.6rem;
+}
+
+.table::-webkit-scrollbar-thumb {
+    height: 0.5rem;
+    width: 0.6rem;
+    background-color: #fff7;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.table:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+
+tbody th{
+    border-radius: 10px;
+}
+
